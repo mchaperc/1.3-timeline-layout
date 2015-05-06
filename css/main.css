@@ -1,0 +1,54 @@
+/***********************
+Sidebar styling
+***********************/
+
+.sidebar {
+	float: left;
+	width: 32%;
+}
+
+.fa {
+	float: right;
+	background-color: rgb(80,150,198);
+	vertical-align: bottom;
+	display:inline-block;
+    font-size: 22px;
+    line-height: 36px;
+    color:white;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    vertical-align: bottom;
+    border-radius: 50%;
+    border: 10px solid rgb(176,215,241);
+    clear: both;
+    margin: 0;
+}
+
+.fa, .vertical-line1, .vertical-line2 {
+	position: relative;
+	top: -50px;
+}
+
+.vertical-line1, .vertical-line2 {
+	background-color: rgb(176,215,241);
+	width: 9px;
+	float: right;
+	clear: both;
+	position: relative;
+	right: 23px;
+	margin: 0;
+}
+
+.vertical-line1 {
+	height: 300px;
+}
+
+.vertical-line2 {
+	height: 210px;
+}
+
+.main {
+	float: right;
+	width: 68%;
+}
