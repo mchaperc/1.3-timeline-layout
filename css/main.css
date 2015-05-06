@@ -135,6 +135,7 @@ h1 {
 .arrow-left {
 	position: absolute;
 	left: -10px;
+	top: 10px;
 	width: 0; 
 	height: 0; 
 	border-top: 10px solid transparent;
